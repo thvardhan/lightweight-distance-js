@@ -11,4 +11,7 @@ Currently, the following can be calculated :
 First install the library by executing
 <pre><code>npm install light-distance-js</code></pre>
 The library can be imported and used as follows :
-<pre><code>npm install light-distance-js</code></pre>
+<pre><code>const r = require('light-distance-js')
+console.log(r.euclideanDistance([2,3,4],[3,2,1]))
+> 3.3166247903554
+</code></pre>
