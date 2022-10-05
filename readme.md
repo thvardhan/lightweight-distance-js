@@ -6,6 +6,7 @@ Currently, the following can be calculated :
 
 - Euclidean Distance
 - Sqeuclidean Distance
+- Chi-squared Distance
 
 ### Usage :
 
@@ -18,6 +19,9 @@ console.log(r.euclideanDistance([2,3,4],[3,2,1]))
 
 console.log(r.sqeuclideanDistance([2,3,4],[3,2,1]))
 > 11 
+
+console.log(r.chisquaredDistance([2,3,4],[3,2,1]))
+> 5.5
 </code></pre>
 
 
