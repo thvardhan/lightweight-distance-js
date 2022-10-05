@@ -5,6 +5,7 @@ The primary aim of this JS library is to be as lightweight as possible while pro
 Currently, the following can be calculated :
 
 - Euclidean Distance
+- Sqeuclidean Distance
 
 ### Usage :
 
