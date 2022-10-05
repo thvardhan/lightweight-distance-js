@@ -46,4 +46,16 @@ const sqeuclideanDistance = (vector_a, vector_b) => {
     return result;
 }
 
-module.exports = { euclideanDistance, sqeuclideanDistance };
+const chisquaredDistance = (vector_a, vector_b) => {
+    validateParams(vector_a, vector_b)
+    const result = vector_a.map((i, index) => {
+
+        return (Math.pow(i - vector_b[index], 2)/(i + vector_b[index], 2))
+
+    }).reduce((a, b) => {
+        return a + b
+    })
+    return result;
+}
+
+module.exports = { euclideanDistance, sqeuclideanDistance, chisquaredDistance };
