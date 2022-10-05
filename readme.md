@@ -14,4 +14,10 @@ The library can be imported and used as follows :
 <pre><code>const r = require('light-distance-js')
 console.log(r.euclideanDistance([2,3,4],[3,2,1]))
 > 3.3166247903554
+
+console.log(r.sqeuclideanDistance([2,3,4],[3,2,1]))
+> 11 
 </code></pre>
+
+
+
